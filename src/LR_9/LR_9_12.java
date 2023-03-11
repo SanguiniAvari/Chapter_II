@@ -17,7 +17,5 @@ public class LR_9_12 {
         } catch (IllegalArgumentException e){
             System.out.println("U" + e);
         }
-
     }
-
 }

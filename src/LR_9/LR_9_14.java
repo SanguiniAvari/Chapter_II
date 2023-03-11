@@ -14,5 +14,4 @@ public class LR_9_14 {
             System.out.println("Ошибка: Деление на ноль");
         }
     }
-
 }

@@ -1,7 +1,6 @@
 package LR_9;
 
 public class LR_9_5_1 {
-
     public static void main(String[] args) {
         try {
             System.out.println("0");

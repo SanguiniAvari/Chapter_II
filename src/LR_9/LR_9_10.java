@@ -14,5 +14,4 @@ public class LR_9_10 {
     public static void main(String[] args) {
         System.out.println(m());
     }
-
 }

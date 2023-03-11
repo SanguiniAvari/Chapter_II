@@ -15,5 +15,4 @@ public class LR_9_3 {
         }
         System.out.println("4");
     }
-
 }

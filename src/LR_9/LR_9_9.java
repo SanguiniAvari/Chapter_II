@@ -11,10 +11,7 @@ public class LR_9_9 {
                 System.out.println("1");
             }
         }
-
         public static void main(String[] args) {
             System.out.println(m());
         }
-
-
     }

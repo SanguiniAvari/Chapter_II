@@ -38,7 +38,6 @@ public class LR_9_CH2_1 {
         }
     }
 
-
     public static void main(String[] args) {
         double count=0;
         int[] ar = new int[ArrayLength()];

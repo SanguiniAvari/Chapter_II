@@ -52,6 +52,5 @@ public class LR_9_CH2_3 {
                 System.out.println("К сожалению сумма элементов массива больше, чем ожиалось");
                 System.out.println("Завершение программы.");
         }
-
     }
 }
