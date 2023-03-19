@@ -55,7 +55,7 @@ public class LR_10_1_xml {
 
             //Запись XML-файла
             doc.setXmlStandalone(true);
-            doc.normalizeDocument();
+            //doc.normalizeDocument();
             javax.xml.transform.TransformerFactory tf  = javax.xml.transform.TransformerFactory.newInstance();
             javax.xml.transform.Transformer transformer = tf.newTransformer();
             transformer.setOutputProperty(OutputKeys.ENCODING,"UTF-8");
