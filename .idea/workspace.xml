@@ -2,25 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98529e31-8397-4153-8bc0-efd26322f403" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_logging_log4j_core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_poi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_poi_ooxml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/LR_10_1_xml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/LR_10_2_xml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/LR_10_3_json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/LR_10_4_json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/LR_10_5_html.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/LR_10_6_html.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/LR_10_7_excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/LR_10_8_excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_1_xml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_2_json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/homework/lr10_1_xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/homework/lr_10_hw_xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/homework/simpleLR10_xml.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_5_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_5_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_5_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_5_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_CH2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_CH2_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_CH2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_CH2_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_9/LR_9_CH2_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_9/LR_9_CH2_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_II.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_II.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,12 +52,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/PC/IdeaProjects/Chapter_II/src/LR_10/homework",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="LR_10.homework.test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\Chapter_II\src\LR_10\homework" />
+      <recent name="C:\Users\PC\IdeaProjects\Chapter_II\src\LR_10\homework\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PC\IdeaProjects\Chapter_II\src" />
     </key>
@@ -76,11 +93,29 @@
       <option name="project" value="LOCAL" />
       <updated>1678543151264</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LR_9">
+      <created>1678544848241</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678544848241</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LR_9" />
     <option name="LAST_COMMIT_MESSAGE" value="LR_9" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_10/homework/simpleLR10_xml.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

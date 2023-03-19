@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Inspection>
+        
+    <flat>
+                
+        <date>21.02.2023</date>
+                
+        <timeStart>10:03</timeStart>
+                
+        <timeEnd>12:14</timeEnd>
+                
+        <contract>СТ-02</contract>
+                
+        <contractType>договор</contractType>
+                
+        <address>ул. Степана Разина, д. 15, кв. 18</address>
+                
+        <floor>9</floor>
+                
+        <totalFloors>15</totalFloors>
+                
+        <owner>Сидоренко Павел Николаевич</owner>
+                
+        <attended>Дружинин Федор Николаевич</attended>
+                
+        <fromTheSide>ООО Уральское турне</fromTheSide>
+                
+        <tools>Меч-кладенец</tools>
+                
+        <tools>Палка-леденец</tools>
+                
+        <tools>Хаврошка</tools>
+            
+    </flat>
+        
+    <flat>
+                
+        <date>19.03.2023</date>
+                
+        <timeStart>12:28</timeStart>
+                
+        <timeEnd>12:30</timeEnd>
+                
+        <contract>СТ-03</contract>
+                
+        <court>2-1684/2022</court>
+                
+        <contractType>определение</contractType>
+                
+        <address>ул. Дорожная, д. 18, кв. 924</address>
+                
+        <floor>3</floor>
+                
+        <totalFloors>26</totalFloors>
+                
+        <owner>Волк Андрей Александрвоич</owner>
+                
+        <attended>Сегень Виктория Вячеславовна</attended>
+                
+        <fromTheSide>ООО Дом</fromTheSide>
+                
+        <tools>Серп</tools>
+                
+        <tools>Молот</tools>
+            
+    </flat>
+    
+    <flat>
+        <date>19.03.2023</date>
+        <timeStart>13:41</timeStart>
+        <timeEnd>13:50</timeEnd>
+        <contract>СТ-03</contract>
+        <court>Чкаловский районный суд</court>
+        <contractType>судебная</contractType>
+        <address>Уральская 75</address>
+        <floor>1</floor>
+        <totalFloors>12</totalFloors>
+        <owner>Иванов Федор Павлович</owner>
+        <attended>Смирнов Петр Андреевич</attended>
+        <fromTheSide>ООО "Спарта"</fromTheSide>
+        <tools>линейка</tools>
+    </flat>
+</Inspection>
