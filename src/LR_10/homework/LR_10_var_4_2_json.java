@@ -25,7 +25,7 @@ public class LR_10_var_4_2_json {
             JSONArray jsonArray = (JSONArray) jsonObject.get("books");
             for (Object o: jsonArray){
                 JSONObject book = (JSONObject) o;
-                if(((JSONObject) o).get("year").equals(find)||((JSONObject) o).get("title").equals(find)||((JSONObject) o).get("autor").equals(find)) {
+                if(book.get("year").equals(find)||book.get("title").equals(find)||book.get("autor").equals(find)) {
                     System.out.println("\nCourent Element: book");
                     System.out.println("Book name: " + book.get("title"));
                     System.out.println("Autor: " + book.get("autor"));
@@ -40,7 +40,7 @@ public class LR_10_var_4_2_json {
     protected static void addData(){
         try{
             JSONParser parser = new JSONParser();
-            Object obj = parser.parse(new FileReader("src/LR_10/lr10_2_json.json"));
+            Object obj = parser.parse(new FileReader("src/LR_10/homework/lr10_2_json.json"));
             JSONObject jsonObject = (JSONObject) obj;
             JSONArray jsonArray = (JSONArray) jsonObject.get("books");
 
@@ -69,7 +69,7 @@ public class LR_10_var_4_2_json {
     protected static void delData(){
       try{
         JSONParser parser = new JSONParser();
-        Object obj = parser.parse(new FileReader("src/LR_10/lr10_2_json.json"));
+        Object obj = parser.parse(new FileReader("src/LR_10/homework/lr10_2_json.json"));
         JSONObject jsonObject = (JSONObject) obj;
         JSONArray jsonArray = (JSONArray) jsonObject.get("books");
 

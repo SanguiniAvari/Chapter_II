@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98529e31-8397-4153-8bc0-efd26322f403" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LR_10/homework/LR_10_HTML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_10/homework/lr10_2_json.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_10/LR_10_6_html.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_10/LR_10_6_html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LR_10/homework/LR_10_HTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_3_HTML.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_2_json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_2_json.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,11 +99,19 @@
       <option name="project" value="LOCAL" />
       <updated>1679257622545</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LR_10">
+      <created>1679420901537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679420901537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LR_9" />
-    <option name="LAST_COMMIT_MESSAGE" value="LR_9" />
+    <MESSAGE value="LR_10" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR_10" />
   </component>
 </project>

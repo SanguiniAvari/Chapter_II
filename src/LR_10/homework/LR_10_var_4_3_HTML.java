@@ -17,7 +17,7 @@ import java.util.List;
 
 import static org.json.simple.JSONObject.escape;
 
-public class LR_10_HTML {
+public class LR_10_var_4_3_HTML {
     public static void isAboy(){
         try{
             File file = new File("src/LR_10/homework/LR_10_HTML.json");
