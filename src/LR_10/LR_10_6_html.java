@@ -22,10 +22,7 @@ public class LR_10_6_html {
                 if(!(i%2==0)){
                     List<Node> nodes = newsParent.get(0).childNodes();
                     System.out.println("Тема: " +((Element)nodes.get(i)).getElementsByClass("blocktitle").get(0).childNodes().get(0));
-                    System.out.println("Дата: " + ((Element)nodes.get(i))
-                            .getElementsByClass("blockdate")
-                            .get(0).childNodes().get(0)+"\n");
-
+                    System.out.println("Дата: " + ((Element)nodes.get(i)).getElementsByClass("blockdate").get(0).childNodes().get(0)+"\n");
                 }
             }
         }catch(Exception e){

@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98529e31-8397-4153-8bc0-efd26322f403" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LR_10/homework/lr10_1_xml(plus).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/homework/LR_10_HTML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_10/homework/lr10_2_json.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_10/LR_10_1_xml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_10/LR_10_1_xml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_10/LR_10_2_xml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_10/LR_10_2_xml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_1_xml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_1_xml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_10/homework/lr10_1_xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_10/homework/lr10_1_xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_10/homework/lr_10_hw_xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_10/homework/lr_10_hw_xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_10/homework/simpleLR10_xml.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LR_10/LR_10_6_html.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_10/LR_10_6_html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_2_json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_2_json.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679235611899</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="LR_9">
+      <created>1679257622545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679257622545</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
