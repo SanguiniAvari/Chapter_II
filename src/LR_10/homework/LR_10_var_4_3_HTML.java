@@ -3,56 +3,81 @@ package LR_10.homework;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.List;
 
 import static org.json.simple.JSONObject.escape;
 
 public class LR_10_var_4_3_HTML {
-    public static void isAboy(){
+    public static boolean isAboy(){
         try{
             File file = new File("src/LR_10/homework/LR_10_HTML.json");
-            if(file.isDirectory()){
-                System.out.println("Bingo");
-            }
+            if(file.exists()){
+                return true;
+            } return false;
         }catch (Exception e){
             e.printStackTrace();
         }
+        return false;
     }
-    public static void doMagic(List nodes, int i){
-        try{
-            isAboy();
-            JSONParser parser = new JSONParser();
-            Object obj = parser.parse(new FileReader("src/LR_10/homework/LR_10_HTML.json"));
 
-            JSONObject jsonObject = (JSONObject) obj;
-            JSONArray jsonArray =  (JSONArray) jsonObject.get("library");
+    public static void doMagic(List nodes, int i) {
+        try {
+            if (isAboy()) {
+                JSONParser parser = new JSONParser();
+                Object obj = parser.parse(new FileReader("src/LR_10/homework/LR_10_HTML.json"));
 
-            JSONObject news = new JSONObject();
-            news.put("tema",escape(((Element)nodes.get(i)).getElementsByClass("blocktitle").get(0).childNodes().get(0).toString()));
-            news.put("date",escape(((Element)nodes.get(i)).getElementsByClass("blockdate").get(0).childNodes().get(0).toString()));
-            jsonArray.add(news);
-            jsonObject.put("library",jsonArray);
+                JSONObject jsonObject = (JSONObject) obj;
+                JSONArray jsonArray = (JSONArray) jsonObject.get("library");
 
-            FileWriter wfile = new FileWriter("src/LR_10/homework/LR_10_HTML.json");
+                JSONObject news = new JSONObject();
+                news.put("tema", escape(((Element) nodes.get(i)).getElementsByClass("blocktitle").get(0).childNodes().get(0).toString()));
+                news.put("date", escape(((Element) nodes.get(i)).getElementsByClass("blockdate").get(0).childNodes().get(0).toString()));
+                if (jsonArray.contains(news)){
+                    System.out.println("\nТАКОЙ ЭЛЕМЕНТ ЕСТЬ В МАССИВЕ");
+                } else {
+                    jsonArray.add(news);
+                    jsonObject.put("library", jsonArray);
+
+                    FileWriter wfile = new FileWriter("src/LR_10/homework/LR_10_HTML.json");
                     wfile.write((jsonObject).toJSONString());
-            wfile.flush();
-            wfile.close();
+                    wfile.flush();
+                    wfile.close();
+                }
+            } else {
+                JSONObject jsonObject = new JSONObject();
+                JSONArray jsonArray = new JSONArray();
 
-        }catch (Exception e){
+                JSONObject news = new JSONObject();
+                news.put("tema", escape(((Element) nodes.get(i)).getElementsByClass("blocktitle").get(0).childNodes().get(0).toString()));
+                news.put("date", escape(((Element) nodes.get(i)).getElementsByClass("blockdate").get(0).childNodes().get(0).toString()));
+                jsonArray.add(news);
+                jsonObject.put("library", jsonArray);
+
+                FileWriter file = new FileWriter("src/LR_10/homework/LR_10_HTML.json");
+                file.write(jsonObject.toJSONString());
+                file.flush();
+                file.close();
+            }
+
+        } catch (FileNotFoundException ex) {
+            ex.printStackTrace();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } catch (ParseException ex) {
+            ex.printStackTrace();
+        }catch (Exception e) {
             e.printStackTrace();
         }
     }
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         try {
             Document doc = Jsoup.connect("http://fat.urfu.ru/index.html").get();
             Elements newsParent = doc.select("body > table > tbody > tr > td > div > table > " +
@@ -67,7 +92,7 @@ public class LR_10_var_4_3_HTML {
                 }
             }
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 }
