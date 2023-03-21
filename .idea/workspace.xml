@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98529e31-8397-4153-8bc0-efd26322f403" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/LR_10/homework/LR_10_HTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_3_HTML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_2_json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_2_json.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,12 +106,30 @@
       <option name="project" value="LOCAL" />
       <updated>1679420901537</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LR_10">
+      <created>1679421393848</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679421393848</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LR_9" />
     <MESSAGE value="LR_10" />
     <option name="LAST_COMMIT_MESSAGE" value="LR_10" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_10/test/filterJson.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -21,16 +21,15 @@ public class LR_10_var_4_2_json {
             Object obj = parser.parse(new FileReader("src/LR_10/homework/lr10_2_json.json"));
             JSONObject jsonObject = (JSONObject) obj;
 
-            System.out.println("Root Element" + jsonObject.keySet().iterator().next());
             JSONArray jsonArray = (JSONArray) jsonObject.get("books");
             for (Object o: jsonArray){
                 JSONObject book = (JSONObject) o;
-                if(book.get("year").equals(find)||book.get("title").equals(find)||book.get("autor").equals(find)) {
+                if(book.get("year").toString().equals(find)||book.get("title").equals(find)||book.get("autor").equals(find)) {
                     System.out.println("\nCourent Element: book");
                     System.out.println("Book name: " + book.get("title"));
                     System.out.println("Autor: " + book.get("autor"));
                     System.out.println("Year: " + book.get("year"));
-                };
+                }
 
             }
         }catch (Exception e){
