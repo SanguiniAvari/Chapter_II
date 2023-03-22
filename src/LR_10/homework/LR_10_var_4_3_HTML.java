@@ -4,6 +4,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -11,6 +12,7 @@ import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 
 import java.io.*;
+import java.net.UnknownHostException;
 import java.util.List;
 
 import static org.json.simple.JSONObject.escape;
@@ -79,14 +81,21 @@ public class LR_10_var_4_3_HTML {
         }
     }
     public static Document reConnect(){
+        try {
         if (fivTime < 5) {
             fivTime ++;
-            try {
                 doc = Jsoup.connect("http://fat.urfu.ru/index.html").get();
                 return doc;
-            }catch (Exception e){
-             e.printStackTrace();
-            }
+        }
+        }catch (UnknownHostException e){
+            System.out.println("Беда, пытаюсь снова " + fivTime);
+            reConnect();
+            }catch (HttpStatusException e){
+            System.out.println("Беда");
+            e.printStackTrace();
+        }
+        catch (Exception e){
+            e.printStackTrace();
         }
     return null;
     }
