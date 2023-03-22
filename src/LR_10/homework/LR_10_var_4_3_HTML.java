@@ -15,6 +15,8 @@ import java.util.List;
 
 import static org.json.simple.JSONObject.escape;
 
+//java.net.UnknownHostException: fat.urfu.ru
+
 public class LR_10_var_4_3_HTML {
     public static boolean isAboy(){
         try{
@@ -27,7 +29,6 @@ public class LR_10_var_4_3_HTML {
         }
         return false;
     }
-
     public static void doMagic(List nodes, int i) {
         try {
             if (isAboy()) {
@@ -77,9 +78,22 @@ public class LR_10_var_4_3_HTML {
             e.printStackTrace();
         }
     }
-        public static void main(String[] args) {
-        try {
-            Document doc = Jsoup.connect("http://fat.urfu.ru/index.html").get();
+    public static Document reConnect(){
+        if (fivTime < 5) {
+            fivTime ++;
+            try {
+                doc = Jsoup.connect("http://fat.urfu.ru/index.html").get();
+                return doc;
+            }catch (Exception e){
+             e.printStackTrace();
+            }
+        }
+    return null;
+    }
+    static int fivTime = 0;
+    static Document doc;
+    public static void main(String[] args) throws IOException {
+            reConnect();
             Elements newsParent = doc.select("body > table > tbody > tr > td > div > table > " +
                     "tbody > tr:nth-child(5) > td:nth-child(3) > table > tbody > "+
                     "tr > td:nth-child(1)");
@@ -91,8 +105,5 @@ public class LR_10_var_4_3_HTML {
                     System.out.println("Дата: " + ((Element)nodes.get(i)).getElementsByClass("blockdate").get(0).childNodes().get(0)+"\n");
                 }
             }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 }
