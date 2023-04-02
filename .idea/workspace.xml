@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98529e31-8397-4153-8bc0-efd26322f403" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_6/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_6/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_6/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/del.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_5_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_5_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_4_excel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_10/homework/LR_10_var_4_4_excel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679512226992</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="LR_10">
+      <created>1679513981236</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679513981236</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,6 +183,51 @@
           <url>file://$PROJECT_DIR$/src/LR_10/test/filterJson.java</url>
           <line>26</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_11/LR_11_5.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_11/myself/ex_2.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_11/myself/ex_3.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_11/LR_11_6/Test.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_11/LR_11_6/Test.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_11/LR_11_6/Test.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_11/myself/del.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_11/myself/ex_5_2.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_11/myself/ex_5_1.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
