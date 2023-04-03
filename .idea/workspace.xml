@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98529e31-8397-4153-8bc0-efd26322f403" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_6/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_6/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/LR_11_6/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/del.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_5_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_5_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/DELL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_7_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_7_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LR_11/myself/del.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LR_11/myself/ex_5_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_5_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679513981236</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="LR_10">
+      <created>1680461886317</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680461886317</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -215,21 +215,32 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LR_11/myself/del.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LR_11/myself/ex_5_2.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LR_11/myself/ex_5_1.java</url>
           <line>10</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_11/myself/ex_5_2.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_11/myself/ex_7_1.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LR_11/myself/ex_8.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="LR_11.myself.ex_8$Node" memberName="link" />
+        <PinnedItemInfo parentTag="LR_11.myself.ex_8$Node" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

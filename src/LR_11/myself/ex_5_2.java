@@ -1,75 +1,46 @@
 package LR_11.myself;
 
-class Node
-{
-    int value;
-    Node next;
+import java.util.Scanner;
 
-    Node(int value, Node next)
-    {
-        this.value = value;
-        this.next = next;
+public class ex_5_2 {
+    static class Node{
+        int value;
+        Node next;
+
+        Node(int value, Node next) {
+            this.value = value;
+            this.next = next;
+        }
     }
-}
-
-class Main
-{
-    // Вспомогательная функция для возврата нового узла связанного списка из кучи
-    public static Node newNode(int key)
-    {
-        Node node = new Node(key, null);
-        return node;
+    static Node appendNode(int value, Node node){
+            Node nodeNext = new Node(value, null);
+            while (node.next != null){
+                node = node.next;
+            }
+            node.next = nodeNext;
+            return node;
     }
 
-    // Вспомогательная функция для печати заданного связанного списка
-    public static void printList(Node head)
-    {
-        Node ptr = head;
-        while (ptr != null)
-        {
+    public static void printThis(Node node) {
+        Node ptr = node;
+        while (ptr != null) {
             System.out.print(ptr.value + " —> ");
             ptr = ptr.next;
         }
 
         System.out.println("null");
     }
+    static Node node;
 
-    // Функция для добавления нового узла в конец списка вместо его головы
-    public static Node appendNode(Node head, int key)
-    {
-        Node current = head;
-        Node node = newNode(key);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введи длину:");
+        node = new Node(0,null);
+        int i = scanner.nextInt();
 
-        // особый случай длины 0
-        if (current == null) {
-            head = node;
+        for (int j = 1; j<i;j++){
+            appendNode(j, node);
         }
-        else {
-            // найти последний узел
-            while (current.next != null) {
-                current = current.next;
-            }
-            current.next = node;
-        }
-
-        return head;
-    }
-
-    public static void main(String[] args)
-    {
-        // ключи ввода
-        int[] keys = {1, 2, 3, 4};
-
-        // указывает на головной узел связанного списка
-        Node head = null;
-        for (int key: keys) {
-            head = appendNode(head, key);
-        }
-
-        // распечатать связанный список
-        printList(head);
+        printThis(node);
     }
 }
-
-    
-
