@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98529e31-8397-4153-8bc0-efd26322f403" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/EX_9/ex_9_LinkedHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/EX_9/ex_9_TreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/EX_9/ex_9_arraylist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_11/myself/ex_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LR_11/myself/ex_9.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680544871046</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="LR_10">
+      <created>1680633109751</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680633109751</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,21 +239,6 @@
           <url>file://$PROJECT_DIR$/src/LR_11/myself/ex_7_1.java</url>
           <line>22</line>
           <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LR_11/myself/ex_8.java</url>
-          <line>121</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LR_11/myself/ex_8.java</url>
-          <line>122</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LR_11/myself/ex_8.java</url>
-          <line>123</line>
-          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
