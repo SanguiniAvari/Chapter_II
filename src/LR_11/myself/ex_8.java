@@ -1,10 +1,5 @@
 package LR_11.myself;
 
-import org.apache.logging.log4j.message.StringFormattedMessage;
-
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public class ex_8 {
     public static void main(String[] args) {
         Node testing = NewNode(0);
@@ -102,7 +97,7 @@ public class ex_8 {
 
     private static Node createTailRec(int rec) {
 //            Ввод с хвоста
-        Node current = new Node(rec,null);
+        Node current = new Node(rec, null);
         if (rec == 0) {
             return null;
         }
@@ -113,20 +108,22 @@ public class ex_8 {
 
     private static Node tailDownRec(Node node) {
         Node courent = node;
-        if (courent.link!= null){
+        if (courent.link != null) {
             courent = tailDownRec(courent.link);
             return courent;
-        } return courent;
+        }
+        return courent;
     }
 
     private static String toStringRec(Node node) {
 //            вывод строки из элементов списка
         String letter = "" + node.value;
-        if (node.link!=null){
+        if (node.link != null) {
             node = node.link;
             letter += toStringRec(node);
             return letter;
-        }return letter;
+        }
+        return letter;
     }
 
     public static Node NewNode(int value) {

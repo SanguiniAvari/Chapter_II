@@ -47,15 +47,7 @@ public class ex_6 {
                 sum*= mult.getKey();
             }
         }
-//      Перемножить все значения ключей, где длина строки больше 5
-//        System.out.println("\n Перемножить все значения ключей, где длина строки больше 5");
-//
-//        for (Map.Entry<Integer, String> mult: set){
-//            System.out.println(mult.getValue().length());
-//            if(mult.getValue().length()>5&&mult.getKey()!=0){
-//                sum*= mult.getKey();
-//                }
-//            }
+
         System.out.println("Результат перемножения всех ключей, где длина строки больше 5: "+sum);
         }
 

@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98529e31-8397-4153-8bc0-efd26322f403" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/EX_9/ex_9_LinkedHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/EX_9/ex_9_TreeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LR_11/myself/EX_9/ex_9_arraylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_12/ex_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_12/ex_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_12/ex_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_12/ex_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_12/ex_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_12/ex_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_12/ex_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_12/ex_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_12/ex_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LR_12/ex_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LR_11/myself/ex_9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LR_11/myself/ex_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LR_11/myself/ex_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LR_11/myself/ex_8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +33,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+    <option name="SCOPE" value="This Class" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,21 +48,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/IdeaProjects/Chapter_II/src/LR_10/homework&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/PC/IdeaProjects/Chapter_II/src/LR_10/homework",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.scopes"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="LR_10.homework.test" />
@@ -179,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680633109751</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="LR_10">
+      <created>1680720810296</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680720810296</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
